@@ -1,0 +1,7 @@
+Type Coercion converts different data types to same 
+	and then try to compare them (using == OR !=)
+	but if you dont want this to happen, use strict
+	Equality (=== OR !==) This doesnt do the type
+	coercion thingy.
+
+numVar.tofixed(2)-> Fixes decimal point to 2
