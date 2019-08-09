@@ -39,11 +39,11 @@ else{
 if((shirtWidth<28 && shirtWidth>=26)&&(shirtLength<34 && shirtLength>=33)&&(shirtSleeve<10.13 && shirtSleeve>=9.63))
 {
     console.log("2XL");
-}
+}else{
 if((shirtWidth>=28)&&(shirtLength>=34)&&(shirtSleeve>=10.13))
 {
     console.log("3XL");
 }
 else {
     console.log("N/A")
-}}}}}
+}}}}}}

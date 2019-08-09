@@ -5,3 +5,31 @@ Type Coercion converts different data types to same
 	coercion thingy.
 
 numVar.tofixed(2)-> Fixes decimal point to 2
+
+Parameter VS Arguments
+	 A parameter is always going to be a variable name and appears in the function declaration
+	 an argument is always going to be a value (i.e. any of the JavaScript data types - a number, a string, a boolean, etc.) and will always appear in the code when the function is called or invoked.
+	 
+Variable assignments are not hoisted.
+
+Function Expressions are variables that store functions within them.
+	Function Expressions aren't hoisted
+
+A function that is passed into another function is called a callback
+
+Splice() in array -
+	The first argument represents the starting index from where you want to change the array, the second argument represents the numbers of elements you want to remove, and the remaining arguments represent the elements you want to add.
+
+	var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller"];
+	onuts.splice(1, 1, "chocolate cruller", "creme de leche");
+
+Array Docs
+	https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+Array.forEach
+	can have two or more variables oe is index also
+	test.forEach(function(num, index){
+    if(num%3===0){
+        test[index]=num+=100
+    }
+	})
